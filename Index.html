@@ -1,69 +1,62 @@
-Bài tập 4.
-Soạn thảo file index.html nội dung như sau:
-
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>bt3</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<!DOCTYPE html><!-- Khai báo loại tài liệu (html5) -->
+<html> <!-- Nơi các phần tử khác nằm trong -->
+    <head> <!-- Chứa thông tin về tài liệu mà không hiển thị trực tiếp trên trang -->
+        <meta charset="utf-8"> <!-- kiểu kí tự UTF-8 -->
+        <title>bt3</title> <!-- Tiêu đề hiển thị -->
+        <meta name="description" content=""> <!-- Thẻ mô tả-->
+        <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Thiết lập viewport để trang responsive trên thiết bị di động -->
                
         <style>
+            /* Định nghĩa kiểu cho các hình ảnh và mô tả */
             .item {
-                margin: 10px;
-                text-align: center;
-                font-size: 24px; /* Đặt kích thước font chữ */
+                margin: 10px; /* Tạo khoảng cách giữa các khối */
+                text-align: center; /* Căn giữa nội dung bên trong khối */
+                font-size: 24px; /* Đặt kích thước font chữ cho nội dung bên trong */
             }
             .item img {
-                width: 100px; /* Đặt chiều rộng cố định */
-                height: auto; /* Đặt chiều cao thay đổi theo để ảnh không bị biến dạng */
-                margin-right: 30px; /* Đặt khoảng cách 30 pixel giữa các ảnh */
+                width: 100px; /* Đặt chiều rộng cố định cho hình ảnh */
+                height: auto; /* Chiều cao tự động điều chỉnh theo chiều rộng để giữ tỷ lệ */
+                margin-right: 30px; /* Tạo khoảng cách giữa các hình ảnh */
             }
-
         </style>
     </head>
-    <body>
-        <div style="display: flex;">
+    <body> <!-- Chứa nội dung hiển thị trên trang -->
+        <div style="display: flex;"> <!-- sắp xếp các phần tử con theo hàng -->
             <div>
-                <h1>
-                    Bài tập 3  
-                </h1>
-                <h2>
-                    Cách sử dụng section của thẻ div
-                </h2>
+                <h1>Bài tập 3</h1> <!-- Tiêu đề chính của trang -->
+                <h2>Cách sử dụng section của thẻ div</h2> <!-- Tiêu đề phụ mô tả nội dung -->
                 <p>
-                div thường được sử dụng để nhóm các phần tử HTML lại với nhau để tạo các  khu vực trên trang web, đặt 1 số thuộc tính chung trên toàn bộ các phần tử HTML trong phạm vi của section.
+                    div thường được sử dụng để nhóm các phần tử HTML lại với nhau để tạo các khu vực trên trang web,
+                    đặt 1 số thuộc tính chung trên toàn bộ các phần tử HTML trong phạm vi của section.
                 </p>
                 <p>
-                    Đồng hồ đeo tay là một thiết bị được thiết kế để mang hoặc đeo trên người. Nó được thiết kế để tiếp tục hoạt động bất chấp các chuyển động gây ra bởi các hoạt động của người đó. Đồng hồ đeo tay được thiết kế để đeo quanh cổ tay, được gắn bởi dây đeo đồng hồ hoặc loại vòng đeo tay khác.
-                    Hiện nay, có rất nhiều loại đồng hồ đeo tay khác nhau trên thị trường. Mỗi loại có những tính năng và thiết kế riêng biệt. Tuy nhiên, không rõ bạn muốn giới thiệu về loại đồng hồ nào cụ thể. Nếu bạn có thông tin chi tiết hơn về loại đồng hồ mà bạn muốn giới thiệu, xin vui lòng cung cấp cho tôi để tôi có thể giúp bạn tốt hơn.
+                    Đồng hồ đeo tay là một thiết bị được thiết kế để mang hoặc đeo trên người.
+                    Nó được thiết kế để tiếp tục hoạt động bất chấp các chuyển động gây ra bởi các hoạt động của người đó.
+                    Đồng hồ đeo tay được thiết kế để đeo quanh cổ tay, được gắn bởi dây đeo đồng hồ hoặc loại vòng đeo tay khác.
+                    Hiện nay, có rất nhiều loại đồng hồ đeo tay khác nhau trên thị trường.
+                    Mỗi loại có những tính năng và thiết kế riêng biệt. 
+                    Tuy nhiên, không rõ bạn muốn giới thiệu về loại đồng hồ nào cụ thể.
+                    Nếu bạn có thông tin chi tiết hơn về loại đồng hồ mà bạn muốn giới thiệu, xin vui lòng cung cấp cho tôi để tôi có thể giúp bạn tốt hơn.
                 </p>
             </div>
            
             <div>
-                <div class="item">
-                    <img src="watch1.jpg" alt="dongho1" >
-                    <p>
-                        Đồng hồ 1 đẹp
-                    </p>
+                <div class="item"> <!-- Thông tin về đồng hồ 1 -->
+                    <img src="watch1.jpg" alt="dongho1"> <!-- Hình ảnh đồng hồ 1 -->
+                    <p>Đồng hồ 1 đẹp</p> <!-- Mô tả về đồng hồ 1 -->
                 </div>
-                <div class="item">
-                    <img src="watch2.jpg" alt="dongho2" >
-                    <p>
-                        Đồng hồ 2 phù hợp
-                    </p>
+                <div class="item"> <!-- Thông tin về đồng hồ 2 -->
+                    <img src="watch2.jpg" alt="dongho2"> <!-- Hình ảnh đồng hồ 2 -->
+                    <p>Đồng hồ 2 phù hợp</p> <!-- Mô tả về đồng hồ 2 -->
                 </div>
-                <div class="item">
-                    <img src="watch3.jpg" alt="dongho3" >
-                    <p>
-                        Đồng hồ 3 rất sang trọng
-                    </p>
+                <div class="item"> <!-- Thông tin về đồng hồ 3 -->
+                    <img src="watch3.jpg" alt="dongho3"> <!-- Hình ảnh đồng hồ 3 -->
+                    <p>Đồng hồ 3 rất sang trọng</p> <!-- Mô tả về đồng hồ 3 -->
                 </div>
             </div>
-</div>
-        <footer style="background-color: lightblue;">
-            <a href="https://shopee.vn/time.clock">Liên hệ</a>
+        </div>
+        <footer style="background-color: lightblue;"> <!-- Phần chân trang với nền màu xanh sáng -->
+            <a href="https://shopee.vn/time.clock">Liên hệ</a> <!-- Liên kết tới trang liên hệ -->
         </footer>
     </body>
 </html>
